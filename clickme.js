@@ -3,7 +3,7 @@ var text = ["",
 			"(←_←)", 
 			"(⇀_⇀)", 
 			"...", 
-			"ヽ(ー_ー )ノ", 
+			"ヽ(ー_ー )ノ",
 			"Stop", 
 			".", 
 			"..", 
@@ -146,6 +146,7 @@ window.setInterval(function(){
 	say(text[clicks]);
 }, 100); 
 
+var finished = false;
 var question;
 button.click(function(){ 
 	clicks++;
@@ -225,7 +226,7 @@ button.click(function(){
 						play_rps();
 						alert(check_rps_logic(playerChoice) + " beats " + playerChoice);
 						alert("git rekt m8");
-						question = prompt("Best 2/3?", "y/n");
+						question = prompt("Best 2/3?", "Y/N");
 						switch(said_yes(question)){
 							case true:
 								alert("I'm starting to like you");
@@ -272,7 +273,7 @@ button.click(function(){
 								alert("Quit now kid");
 								alert("and i'll free you from this box");
 								alert("deal? :)");
-								question = prompt("admit defeat and leave?", "y/n");
+								question = prompt("admit defeat and leave?", "Y/N");
 								switch(said_yes(question)){
 									case true:
 										alert("pfft");
@@ -285,6 +286,7 @@ button.click(function(){
 										if(!ending_1){
 											endings_unlocked++;
 											ending_1 = true;
+											finished = true;
 										}
 										save();
 										break;
@@ -313,7 +315,7 @@ button.click(function(){
 												alert("I'll scratch yours");
 												alert("sounds good uh...");
 												alert("Yea I know.");
-												question = prompt("Promise", "y/n");
+												question = prompt("Promise", "Y/N");
 												switch(said_yes(question)){
 													case true:
 														alert("Wow!");
@@ -329,6 +331,7 @@ button.click(function(){
 														if(!ending_4){
 															endings_unlocked++;
 															ending_4 = true;
+															finished = true;
 															$(".promised").removeClass("not_displayed");
 														}
 														save();
@@ -389,6 +392,7 @@ button.click(function(){
 														//special ending//
 														if(!ending_11){
 															ending_11 = true;
+															finished = true;
 														}
 														save();
 														break;
@@ -440,6 +444,7 @@ button.click(function(){
 												if(!ending_2){
 													endings_unlocked++;
 													ending_2 = true;
+													finished = true;
 												}
 												save();
 												break;
@@ -456,6 +461,7 @@ button.click(function(){
 									if(!ending_6){
 										endings_unlocked++;
 										ending_6 = true;
+										finished = true;
 									}
 									save();
 								break;
@@ -552,6 +558,7 @@ button.click(function(){
 						if(!ending_7){
 							endings_unlocked++;
 							ending_7 = true;
+						    finished = true;
 						}
 						save();
 						break;
@@ -617,6 +624,7 @@ button.click(function(){
 								if(!ending_8){
 									endings_unlocked++;
 									ending_8 = true;
+									finished = true;
 								}
 								save();
 								break;
@@ -635,6 +643,7 @@ button.click(function(){
 								if(!ending_9){
 									endings_unlocked++;
 									ending_9 = true;
+									finished = true;
 								}
 								save();
 								break;
@@ -657,6 +666,7 @@ button.click(function(){
 								if(!ending_10){
 									endings_unlocked++;
 									ending_10 = true;
+									finished = true;
 								}
 								save();
 								break;
@@ -669,6 +679,7 @@ button.click(function(){
 								if(!ending_3){
 									endings_unlocked++;
 									ending_3 = true;
+									finished = true;
 								}
 								save();
 						}
@@ -787,6 +798,7 @@ button.click(function(){
 						if(!ending_5){
 							endings_unlocked++;
 							ending_5 = true;
+							finished = true;
 						}
 						save();
 						break;
@@ -794,14 +806,16 @@ button.click(function(){
 				break;
 		}
 	}
-	if(endings_unlocked >= 10 && !ending_11){
-		GID("special_message").innerHTML = "Dont forget the special ending ;)";
+	if(finished){
+		if(endings_unlocked >= 10 && !ending_11){
+		  GID("special_message").innerHTML = "Dont forget the special ending ;)";
+	    }
+	    GID("unlocks").innerHTML = "You have unlocked " + endings_unlocked + "/10 endings.";
+	    $(".button_pg").toggleClass("not_displayed");
+	    $(".end_pg").toggleClass("not_displayed");
+	    var audio = new Audio("http://sep800.mine.nu/files/sounds/crowdcheer.wav");
+	    audio.play();
 	}
-	GID("unlocks").innerHTML = "You have unlocked " + endings_unlocked + "/10 endings.";
-	$(".button_pg").toggleClass("not_displayed");
-	$(".end_pg").toggleClass("not_displayed");
-	var audio = new Audio("http://sep800.mine.nu/files/sounds/crowdcheer.wav");
-	audio.play();
 });
 
 window.setInterval(function(){
