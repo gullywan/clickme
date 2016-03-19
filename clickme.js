@@ -22,7 +22,7 @@ var text = ["",
 			"Stop", 
 			"have you no conscience?!", 
 			"i'm fading", 
-			"i'll die",
+			"i'll die", 
 			"you'll never see me again", 
 			"why?", 
 			"why do you do this?", 
@@ -803,6 +803,8 @@ button.click(function(){
 	GID("unlocks").innerHTML = "You have unlocked " + endings_unlocked + "/10 endings.";
 	$(".button_pg").toggleClass("not_displayed");
 	$(".end_pg").toggleClass("not_displayed");
+	var audio = new Audio("http://sep800.mine.nu/files/sounds/crowdcheer.wav");
+	audio.play();
 });
 
 var msg = 
