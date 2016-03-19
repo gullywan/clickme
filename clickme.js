@@ -809,5 +809,5 @@ button.click(function(){
 
 var msg = 
 window.setInterval(function(){
-	GID("shows_up").innerHTML = $('#link').val();
+	GID("shows_up").innerHTML = "Shows up as <br>--- " + $('#link').val() + " ---";
 }, 100);
