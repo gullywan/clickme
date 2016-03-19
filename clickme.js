@@ -41,13 +41,13 @@ function GID(id){
   return document.getElementById(id);
 }
 var button = $(".button");
-var clicks = 36;
+var clicks = 0;
 var endings_unlocked = 0;
 var ending_1, ending_2, ending_3, ending_4, ending_5, ending_6, ending_7, ending_8, ending_9, ending_10, ending_11 = false;  
 //////For RPS/////
 var playerChoice = "";
 
-var save_name = "endings";
+var save_name = "ending";
 function save(){
 	var save_ = {
 		ending_1:ending_1,
@@ -122,13 +122,10 @@ function check_rps_logic(choice){
 function play_rps(){
 	var choice = prompt("");
 	if(choice == "r" || choice == "R"){
-		//do nothing
 		playerChoice = choice;
 	} else if(choice == "p" || choice == "P"){
-		//still do nothing
 		playerChoice = choice;
 	} else if(choice == "s" || choice == "S"){
-		//you can stop doing anything
 		playerChoice = choice;
 	} else if(choice == null){
 		alert("hahahaha");
@@ -807,7 +804,6 @@ button.click(function(){
 	audio.play();
 });
 
-var msg = 
 window.setInterval(function(){
 	GID("shows_up").innerHTML = "Shows up as <br>--- " + $('#link').val() + " ---";
 }, 100);
