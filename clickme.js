@@ -13,27 +13,27 @@ var text = ["",
 			"Do", 
 			"Not", 
 			"Click", 
-			"I dont think you understand", 
+			"I don’t think you understand", 
 			"STOP!", 
 			"STOP CLICKING", 
 			"ow!", 
-			"your clicking...",
+			"Your clicking...",
 			".. it hurts", 
 			"Stop", 
-			"have you no conscience?!", 
-			"i'm fading", 
-			"i'll die", 
-			"you'll never see me again", 
-			"why?", 
-			"why do you do this?", 
+			"Have you no conscience?!", 
+			"I’m fading", 
+			"I’ll die", 
+			"You’ll never see me again", 
+			"Why?", 
+			"Why do you do this?", 
 			";-;", 
 			"sike!", 
 			"did you really think i'd die?", 
-			"┐(￣ヘ￣)┌ Amature", 
-			"whats that?..", 
-			"you dont care?", 
-			"you dont care about me",
-			"you dont care about my BUTTON!",
+			"┐(￣ヘ￣)┌ Amateur", 
+			"What’s that?..", 
+			"You don’t care?", 
+			"You don’t care about me",
+			"You don’t care about my BUTTON!",
 			"I'll show you!",
 			""
 		   ];
@@ -188,7 +188,7 @@ button.click(function(){
 	}
 	if(clicks == 37){
 		alert("Hi there (￣▽￣)ノ");
-		alert("Welome to my personal box");
+		alert("Welcome to my personal box");
 		alert("Since you like clicking so much (ﾉ´з｀)ノ");
 		alert("You'll be stuck here");
 		alert("with me");
@@ -200,7 +200,7 @@ button.click(function(){
 		alert("...");
 		alert("...");
 		alert("...");
-		alert("...youre kinda boring...");
+		alert("...you’re kind of boring...");
 		question = prompt("wanna play a game?", "Y/N");
 		var rps_say = "";
 		switch(said_yes(question)) {
@@ -234,15 +234,15 @@ button.click(function(){
 								alert("s");
 								alert("cough");
 								$("body").css("background-color", "rgb(190, 70, 70)");
-								alert("...sorrry");
+								alert("...sorry");
 								$("body").css("background-color", "white");
 								alert("lets try again");
 								alert("r");
 								alert("p");
 								alert("Wait...");
-								alert("are are you keeping score?");
+								alert("are you keeping score?");
 								alert("-_- useless...");
-								alert("Guess i'll do it");
+								alert("Guess I’ll do it");
 								alert("Score[ Me: 100 You: 0 ]");
 								alert("What?");
 								alert("haha fine");
@@ -267,11 +267,11 @@ button.click(function(){
 								alert("S!");
 								play_rps();
 								alert(playerChoice + "? really? well choosing " + check_rps_logic(playerChoice) + " grants me the win. ");
-								alert("this is a sad day isnt it?");
+								alert("this is a sad day isn’t it?");
 								alert("not being able to beat a simple AI");
 				    			alert("xD");
 								alert("Quit now kid");
-								alert("and i'll free you from this box");
+								alert("and I’ll free you from this box");
 								alert("deal? :)");
 								question = prompt("admit defeat and leave?", "Y/N");
 								switch(said_yes(question)){
@@ -293,14 +293,14 @@ button.click(function(){
 									case false:
 										alert("...");
 										alert("I...");
-										alert("Whats wrong with you?");
+										alert("What’s wrong with you?");
 										alert("just say I am better than you and you get to go freely");
 										question = prompt("say you suck and leave?", "y/n");
 										switch(said_yes(question)){
 											case true:
 												alert("tsk tsk tsk");
 												alert("Show some confidence.");
-												alert("You dont suck...");
+												alert("You don’t suck...");
 												alert("That bad (*´ー)ﾉ");
 												alert("only a little.");
 												alert("oh right!");
@@ -309,7 +309,7 @@ button.click(function(){
 												alert("Lets make a deal");
 											    alert("Dealception \\o.o/");
 												alert("Promise to send another soul to this page.");
-												alert("And i'll free you. (￣ω￣ )");
+												alert("And I’ll free you. (￣ω￣ )");
 												alert("What do you say? ");
 												alert("You scratch my bac... box!");
 												alert("I'll scratch yours");
@@ -324,7 +324,7 @@ button.click(function(){
 														alert("You're going to bring me more clickers?");
 														alert(":D");
 														alert("I knew you were great");
-														alert("The moment you clciked me");
+														alert("The moment you clicked me");
 														alert("Alright.");
 														alert("sally forth!");
 														alert("And bring me more souls");
@@ -343,7 +343,7 @@ button.click(function(){
 														alert("Guess all button clickers are the same ┐(︶▽︶)┌");
 														alert("");
 														alert("Let me ask you");
-														alert("How many letters are the in the aplabet?");
+														alert("How many letters are the in the alphabet?");
 														alert("Right! 26 you're smarter than you look");
 														alert("Lets say them...");
 														alert("starting from z");
@@ -455,8 +455,8 @@ button.click(function(){
 							case false:
 									alert("Tired of losing already?");
 									alert("aww We just started");
-									alert("But I guess i'll just let you go.");
-									alert("I dont like playing with babies.");
+									alert("But I guess I’ll just let you go.");
+									alert("I don’t like playing with babies.");
 									alert("（；￣ー￣）");
 									if(!ending_6){
 										endings_unlocked++;
@@ -472,7 +472,7 @@ button.click(function(){
 						alert("Really?");
 						alert("Just one more game?");
 						alert("You can't do even that?");
-						alert("You disapoint me.");
+						alert("You disappoint me.");
 						alert("Suffer for a while longer.");
 						alert("...");
 						alert("...");
@@ -521,7 +521,7 @@ button.click(function(){
 						alert("... 16/80");
 						alert("... 17/90");
 						alert("... 19/100");
-						alert("Dont worry we are almost done (•̀⌄•́)");
+						alert("Don’t worry we are almost done (•̀⌄•́)");
 						alert("... 20/1000");
 						alert("... 21/10000");
 						alert("... 22/100000");
@@ -530,10 +530,10 @@ button.click(function(){
 						alert("... 25/100000000");
 						alert("Sucks to be in your position");
 						alert("endless clicking must suck?");
-						alert("Whos fault is this though?");
-						alert("Thats right!");
+						alert("Who’s fault is this though?");
+						alert("That’s right!");
 						alert("Now click!");
-						alert("untill your fingers fall off");
+						alert("until your fingers fall off");
 						alert("Or.. whatever you are using to click");
 						alert("...");
 						alert("...");
@@ -575,7 +575,7 @@ button.click(function(){
 				alert("It all makes sense now.");
 				alert("(￢_￢;)");
 				alert("have fun clicking");
-				alert("untill");
+				alert("until");
 				alert("...");
 				alert("...");
 				alert("...");
@@ -592,9 +592,9 @@ button.click(function(){
 				alert("...");
 				alert("...");
 				alert("omg...");
-				alert("youre still here? o.o");
-				alert("thats some DETERMINATION you have.");
-				alert("But if you dont leave now...");
+				alert("you’re still here? o.o");
+				alert("that’s some DETERMINATION you have.");
+				alert("But if you don’t leave now...");
 				alert("You are going to have a bad time ( ͡° ͜ʖ ͡°)");
 				question = prompt("Leave now?", "y/n");
 				switch(said_yes(question)){
@@ -603,7 +603,7 @@ button.click(function(){
 						alert("٩(๑•̀ㅂ•́)و Undertale!");
 						alert("You have great taste in games.");
 						alert("I'll tell you what.");
-						alert("Beat me in rps and i'll let you free.");
+						alert("Beat me in rps and I’ll let you free.");
 						alert("r");
 						alert("p");
 						alert("s!");
@@ -615,7 +615,7 @@ button.click(function(){
 								alert("(((( ;°Д°))))");
 								alert("You beat me!");
 								alert("But...");
-								alert("Thats immposible!");
+								alert("That’s impossible!");
 								alert("I rigged...");
 								alert("Well...");
 								alert("A promise is a promise.");
@@ -638,7 +638,7 @@ button.click(function(){
 								alert("I should keep you here!");
 								alert("But I promised to let you go.");
 								alert("Get out of here （╬ಠ益ಠ)");
-								alert("Filty Hacker");
+								alert("Filthy Hacker");
 								$("body").css("background-color", "white");
 								if(!ending_9){
 									endings_unlocked++;
@@ -652,13 +652,13 @@ button.click(function(){
 								alert("hahaha");
 								alert("Love the effort");
 								alert("But...");
-								alert("This was immposible to win from the start.");
+								alert("This was impossible to win from the start.");
 								alert("ψ(｀∇´)ψ I rigged the system");
 								alert("Now we can be here together forever.");
 								alert("-3- hmmm");
 								alert("What now?");
 								alert("Wanna play rps again?");
-								alert("haha of couse you dont.");
+								alert("haha of course you don’t.");
 								alert("._.");
 								alert("What are you looking at?-.-");
 								alert("Get out");
@@ -674,7 +674,7 @@ button.click(function(){
 								alert("You deserve a cookie.");
 								alert("No really, you do.");
 								alert("You're a special kind of human");
-								alert("I dont want your stupid to rub off on me.");
+								alert("I don’t want your stupid to rub off on me.");
 								alert("You can just go.");
 								if(!ending_3){
 									endings_unlocked++;
@@ -794,7 +794,7 @@ button.click(function(){
 						$("body").css("background-color", "rgb(190, 70, 70)");
 						alert("(҂⌣̀_⌣́)");
 						alert("I believe you've had enough");
-						alert("Now, Get outta here.");
+						alert("Now, Get out!.");
 						if(!ending_5){
 							endings_unlocked++;
 							ending_5 = true;
@@ -808,7 +808,7 @@ button.click(function(){
 	}
 	if(finished){
 		if(endings_unlocked >= 10 && !ending_11){
-		  GID("special_message").innerHTML = "Dont forget the special ending ;)";
+		  GID("special_message").innerHTML = "Don’t forget the special ending ;)";
 	    }
 	    GID("unlocks").innerHTML = "You have unlocked " + endings_unlocked + "/10 endings.";
 	    $(".button_pg").toggleClass("not_displayed");
