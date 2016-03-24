@@ -150,7 +150,7 @@ var finished = false;
 var question;
 
 if(endings_unlocked > 1){
-	say("You're back?!");
+	say("You're came back, again?!");
 }
 button.click(function(){ 
 	clicks++;
