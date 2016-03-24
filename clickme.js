@@ -148,6 +148,10 @@ window.setInterval(function(){
 
 var finished = false;
 var question;
+
+if(endings_unlocked > 1){
+	say("You're back?!");
+}
 button.click(function(){ 
 	clicks++;
 	if(clicks >= 20 && clicks <= 29){
