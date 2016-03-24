@@ -286,8 +286,8 @@ button.click(function(){
 										if(!ending_1){
 											endings_unlocked++;
 											ending_1 = true;
-											finished = true;
 										}
+										finished = true;
 										save();
 										break;
 									case false:
@@ -331,9 +331,9 @@ button.click(function(){
 														if(!ending_4){
 															endings_unlocked++;
 															ending_4 = true;
-															finished = true;
 															$(".promised").removeClass("not_displayed");
 														}
+														finished = true;
 														save();
 														break;
 													case false:
@@ -392,8 +392,8 @@ button.click(function(){
 														//special ending//
 														if(!ending_11){
 															ending_11 = true;
-															finished = true;
 														}
+														finished = true;
 														save();
 														break;
 												}
@@ -444,8 +444,8 @@ button.click(function(){
 												if(!ending_2){
 													endings_unlocked++;
 													ending_2 = true;
-													finished = true;
 												}
+												finished = true;
 												save();
 												break;
 										}
@@ -461,8 +461,8 @@ button.click(function(){
 									if(!ending_6){
 										endings_unlocked++;
 										ending_6 = true;
-										finished = true;
 									}
+									finished = true;
 									save();
 								break;
 						}
@@ -558,8 +558,8 @@ button.click(function(){
 						if(!ending_7){
 							endings_unlocked++;
 							ending_7 = true;
-						    finished = true;
 						}
+						finished = true;
 						save();
 						break;
 				}
@@ -624,8 +624,8 @@ button.click(function(){
 								if(!ending_8){
 									endings_unlocked++;
 									ending_8 = true;
-									finished = true;
 								}
+								finished = true;
 								save();
 								break;
 							case "p":
@@ -643,8 +643,8 @@ button.click(function(){
 								if(!ending_9){
 									endings_unlocked++;
 									ending_9 = true;
-									finished = true;
 								}
+								finished = true;
 								save();
 								break;
 							case "s":
@@ -666,8 +666,8 @@ button.click(function(){
 								if(!ending_10){
 									endings_unlocked++;
 									ending_10 = true;
-									finished = true;
 								}
+								finished = true;
 								save();
 								break;
 							default: 
@@ -679,8 +679,8 @@ button.click(function(){
 								if(!ending_3){
 									endings_unlocked++;
 									ending_3 = true;
-									finished = true;
 								}
+								finished = true;
 								save();
 						}
 						break;
@@ -798,8 +798,8 @@ button.click(function(){
 						if(!ending_5){
 							endings_unlocked++;
 							ending_5 = true;
-							finished = true;
 						}
+						finished = true;
 						save();
 						break;
 				}
