@@ -505,7 +505,7 @@ button.click(function(){
 						alert("...");
 						alert("...");
 						alert("...");
-						alert("Just a more of these");
+						alert("Just a few more of these");
 						alert("... 1/10");
 						alert("... 2/10");
 						alert("... 3/10");
@@ -821,6 +821,15 @@ button.click(function(){
 	    audio.play();
 	}
 });
+
+if(ending_unlocked >= 10){
+	var clear = prompt("Clearing your saved endings. Do you care?", "Y/N");
+	if(said_yes(clear)){
+		alert("Alright fine.");
+	} else {
+		localStorage.clear();
+	}
+}
 
 window.setInterval(function(){
 	GID("shows_up").innerHTML = "Shows up as <br>--- " + $('#link').val() + " ---";
